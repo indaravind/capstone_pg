@@ -1,0 +1,68 @@
+# ==========================================
+# Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Jupyter Notebooks & Pytest
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Data Files & Model Checkpoints
+# ==========================================
+# Ignore large dataset CSV files in data/
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.json
+
+# Ignore model export binaries
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+*.sav
+
+# ==========================================
+# Environment Variables & Confidential Files
+# ==========================================
+.env
+.env.local
+.env.*
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+logs/

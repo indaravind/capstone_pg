@@ -12,4 +12,5 @@ IDENTIFIER_COLS = [
     "administrative_reference",
 ]
 RAW_DATA_PATH = os.path.join(DATA_DIR, "PowerGrid_Utility_Intelligence.csv")
+#RAW_DATA_PATH = os.path.join(DATA_DIR, "PowerGrid_Utility_Intelligence_Dataset_10k.csv")
 OUTPUT_DIR = ARTIFACTS_DIR
