@@ -1,68 +1,69 @@
-# ==========================================
-# Python & Bytecode
-# ==========================================
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
 
-# ==========================================
-# Jupyter Notebooks & Pytest
-# ==========================================
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/
-.pytest_cache/
-.coverage
-htmlcov/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# ==========================================
-# Virtual Environments
-# ==========================================
-.venv/
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cookie
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment & IDEs
+.env
+.venv
+env/
 venv/
 ENV/
-env/
 env.bak/
 venv.bak/
-
-# ==========================================
-# Data Files & Model Checkpoints
-# ==========================================
-# Ignore large dataset CSV files in data/
-data/*.csv
-data/*.xlsx
-data/*.parquet
-data/*.json
-
-# Ignore model export binaries
-*.pkl
-*.joblib
-*.h5
-*.onnx
-*.pt
-*.pth
-*.sav
-
-# ==========================================
-# Environment Variables & Confidential Files
-# ==========================================
-.env
-.env.local
-.env.*
-
-# ==========================================
-# IDE & System Files
-# ==========================================
 .vscode/
 .idea/
 *.swp
 *.swo
 .DS_Store
-Thumbs.db
-desktop.ini
 
-# ==========================================
-# Logs & Temporary Files
-# ==========================================
-*.log
-logs/
+# Temporary scratch scripts
+scratch/

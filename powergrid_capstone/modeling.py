@@ -2,7 +2,6 @@ import logging
 import os
 from datetime import datetime
 import pandas as pd
-import numpy as np
 from typing import Dict, Tuple
 import matplotlib.pyplot as plt
 import seaborn as sns
